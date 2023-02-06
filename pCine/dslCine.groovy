@@ -15,6 +15,6 @@ job('Job-pCine') {
     }
     
     steps {
-        shell("bash install.sh")
+        shell("bash ./build/install.sh")
     }
 }
